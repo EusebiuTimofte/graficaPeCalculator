@@ -1,0 +1,3 @@
+﻿  tema3-2.cpp
+C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\tema3-2.cpp(24,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  GraficaPeCalculator.vcxproj -> C:\Users\Euseb\source\repos\GraficaPeCalculator\Debug\GraficaPeCalculator.exe
