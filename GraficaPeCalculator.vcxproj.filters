@@ -36,5 +36,17 @@
     <ClCompile Include="tema3-2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="tema3_ex3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="05_c.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tema4_ex2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrum_vrum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

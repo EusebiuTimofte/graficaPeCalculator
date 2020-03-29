@@ -1,3 +1,9 @@
-﻿  tema3-2.cpp
-C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\tema3-2.cpp(24,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+﻿  vrum_vrum.cpp
+C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\vrum_vrum.cpp(74,55): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\vrum_vrum.cpp(89,55): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\vrum_vrum.cpp(125,55): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\vrum_vrum.cpp(191,66): warning C4244: '=': conversion from 'GLdouble' to 'GLint', possible loss of data
+C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\vrum_vrum.cpp(198,33): warning C4244: '=': conversion from 'GLdouble' to 'GLint', possible loss of data
+C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\vrum_vrum.cpp(206,161): warning C4244: '=': conversion from 'GLdouble' to 'GLint', possible loss of data
+C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\vrum_vrum.cpp(224,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
   GraficaPeCalculator.vcxproj -> C:\Users\Euseb\source\repos\GraficaPeCalculator\Debug\GraficaPeCalculator.exe
