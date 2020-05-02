@@ -48,5 +48,14 @@
     <ClCompile Include="vrum_vrum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="07_C_3_keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Timofte_Eusebiu_353.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="08_C_1_iluminare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

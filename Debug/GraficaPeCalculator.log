@@ -1,9 +1,13 @@
-﻿  vrum_vrum.cpp
-C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\vrum_vrum.cpp(74,55): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\vrum_vrum.cpp(89,55): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\vrum_vrum.cpp(125,55): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\vrum_vrum.cpp(191,66): warning C4244: '=': conversion from 'GLdouble' to 'GLint', possible loss of data
-C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\vrum_vrum.cpp(198,33): warning C4244: '=': conversion from 'GLdouble' to 'GLint', possible loss of data
-C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\vrum_vrum.cpp(206,161): warning C4244: '=': conversion from 'GLdouble' to 'GLint', possible loss of data
-C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\vrum_vrum.cpp(224,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+﻿  07_C_3_keyboard.cpp
+C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\07_C_3_keyboard.cpp(19,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\07_C_3_keyboard.cpp(103,28): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\07_C_3_keyboard.cpp(103,18): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\07_C_3_keyboard.cpp(110,44): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\07_C_3_keyboard.cpp(111,39): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\07_C_3_keyboard.cpp(127,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\07_C_3_keyboard.cpp(128,9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\07_C_3_keyboard.cpp(143,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\07_C_3_keyboard.cpp(144,9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\07_C_3_keyboard.cpp(148,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Euseb\source\repos\GraficaPeCalculator\GraficaPeCalculator\07_C_3_keyboard.cpp(149,9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   GraficaPeCalculator.vcxproj -> C:\Users\Euseb\source\repos\GraficaPeCalculator\Debug\GraficaPeCalculator.exe
