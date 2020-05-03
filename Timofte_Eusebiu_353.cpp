@@ -59,6 +59,7 @@ void drawSnowMan() {
 
 // Draw Head
 	glTranslatef(0.0f, 1.0f, 0.0f);
+	
 	glutSolidSphere(0.25f,20,20);
 
 // Draw Eyes
@@ -94,7 +95,7 @@ void drawTree() {
 
 }
 
-void drawBush() {
+void drawFlower() {
     glColor3f(0.0f, 0.4f, 0.0f);
     glTranslatef(-1.5f, 0.3f, -3.0f);
 
@@ -127,12 +128,19 @@ void renderScene(void) {
 	gluLookAt(	x, 1.0f, z,
 			x+lx, 1.0f,  z+lz,
 			0.0f, 1.0f,  0.0f);
+	
+	//colours
+	GLfloat pozitial0[] = { -100.0, 100.0, 100.0, 1.0 };
+	GLfloat albastru[] = { 0.0, 0.0, 0.8, 0.5 };
+	GLfloat alb[] = { 0.8, 0.8, 0.8, 0.1 };
 
     /// GROUND
 
     switch(rendermode) {
 
     case WINTER:
+		glEnable(GL_BLEND);
+		glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_DST_ALPHA);
 	glColor3f(0.9f, 0.9f, 0.9f);
 	glBegin(GL_QUADS);
 		glVertex3f(-100.0f, 0.0f, -100.0f);
@@ -147,10 +155,22 @@ void renderScene(void) {
 			drawSnowMan();
 			glPopMatrix();
 		}
+	
+	//lightning
+	
+	glLightfv(GL_LIGHT0, GL_POSITION, pozitial0);
+	glLightfv(GL_LIGHT0, GL_AMBIENT, albastru);
+
+	glEnable(GL_LIGHTING);
+	glEnable(GL_LIGHT0);
+	glDisable(GL_BLEND);
     break;
 
 
     case SPRING:
+		glDisable(GL_LIGHTING);
+		glEnable(GL_BLEND);
+		glBlendFunc(GL_SRC_ALPHA, GL_DST_ALPHA);
 	glColor3f(0.0f, 0.8f, 0.0f);
 	glBegin(GL_QUADS);
 		glVertex3f(-100.0f, 0.0f, -100.0f);
@@ -162,13 +182,16 @@ void renderScene(void) {
 		for(int j=-3; j < 3; j++) {
 			glPushMatrix();
 			glTranslatef(i*10.0,0,j * 10.0);
+			
 			drawTree();
-			drawBush();
+			
+			drawFlower();
 			glPopMatrix();
 		}
+	glDisable(GL_BLEND);
         break;
     }
-
+	
 	glutSwapBuffers();
 }
 
@@ -218,7 +241,7 @@ int main(int argc, char **argv) {
 	glutInitWindowPosition(100,100);
 	glutInitWindowSize(320,320);
 	glutCreateWindow("Scena 3D");
-
+	
 	// register callbacks
 	glutDisplayFunc(renderScene);
 	glutReshapeFunc(changeSize);
@@ -233,9 +256,11 @@ int main(int argc, char **argv) {
 
 	// OpenGL init
 	glEnable(GL_DEPTH_TEST);
-
+	
 	// enter GLUT event processing cycle
 	glutMainLoop();
 
+	
+	
 	return 1;
 }
