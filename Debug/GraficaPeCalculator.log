@@ -1,1 +1,19 @@
-﻿  GraficaPeCalculator.vcxproj -> C:\Users\Euseb\source\repos\GraficaPeCalculator\Debug\GraficaPeCalculator.exe
+﻿  07_C_3_keyboard.cpp
+E:\git_projects\graficaPeCalculator\07_C_3_keyboard.cpp(40,25): warning C4459: declaration of 'image' hides global declaration
+E:\git_projects\graficaPeCalculator\07_C_3_keyboard.cpp(21,9): message : see declaration of 'image'
+E:\git_projects\graficaPeCalculator\07_C_3_keyboard.cpp(59,25): warning C4459: declaration of 'image' hides global declaration
+E:\git_projects\graficaPeCalculator\07_C_3_keyboard.cpp(21,9): message : see declaration of 'image'
+E:\git_projects\graficaPeCalculator\07_C_3_keyboard.cpp(73,45): warning C4554: '^': check operator precedence for possible error; use parentheses to clarify precedence
+E:\git_projects\graficaPeCalculator\07_C_3_keyboard.cpp(120,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\git_projects\graficaPeCalculator\07_C_3_keyboard.cpp(206,28): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+E:\git_projects\graficaPeCalculator\07_C_3_keyboard.cpp(206,18): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+E:\git_projects\graficaPeCalculator\07_C_3_keyboard.cpp(213,44): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\git_projects\graficaPeCalculator\07_C_3_keyboard.cpp(214,39): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\git_projects\graficaPeCalculator\07_C_3_keyboard.cpp(224,47): warning C4459: declaration of 'x' hides global declaration
+E:\git_projects\graficaPeCalculator\07_C_3_keyboard.cpp(15,7): message : see declaration of 'x'
+E:\git_projects\graficaPeCalculator\07_C_3_keyboard.cpp(224,54): warning C4100: 'y': unreferenced formal parameter
+E:\git_projects\graficaPeCalculator\07_C_3_keyboard.cpp(224,47): warning C4100: 'x': unreferenced formal parameter
+E:\git_projects\graficaPeCalculator\07_C_3_keyboard.cpp(239,46): warning C4100: 'yy': unreferenced formal parameter
+E:\git_projects\graficaPeCalculator\07_C_3_keyboard.cpp(239,38): warning C4100: 'xx': unreferenced formal parameter
+E:\vcpkg-master\installed\x86-windows\include\gl\freeglut_std.h(641,32): warning C4505: 'glutCreateMenu_ATEXIT_HACK': unreferenced local function has been removed
+  GraficaPeCalculator.vcxproj -> E:\git_projects\graficaPeCalculator\Debug\GraficaPeCalculator.exe

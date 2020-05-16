@@ -1,0 +1,4 @@
+E:\git_projects\graficaPeCalculator\Debug\GraficaPeCalculator.vcxproj.CopyComplete
+E:\git_projects\graficaPeCalculator\Debug\GraficaPeCalculator.exe
+E:\git_projects\graficaPeCalculator\Debug\GraficaPeCalculator.pdb
+E:\git_projects\graficaPeCalculator\Debug\freeglutd.dll

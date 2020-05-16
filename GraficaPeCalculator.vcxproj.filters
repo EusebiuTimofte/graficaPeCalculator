@@ -57,5 +57,48 @@
     <ClCompile Include="08_C_1_iluminare.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="10_C_2_textura_2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="10_C_1_ilustrare_iluminare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="10_C_3_textura_SOIL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="10_C_4_alpha2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="10_C_5_alpha3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="10_C_6_fog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="10_C_7_poliedre3ddepth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="10_C_8_umbra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imageloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="11_C_1_alpha2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imageloader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="text_earth.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="text_smiley_face.png">
+      <Filter>Source Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
